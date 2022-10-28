@@ -516,8 +516,8 @@ int g_OffsetNextSpell;
 public Plugin myinfo = 
 {
 	name = "Fortress Royale", 
-	author = "Peanut", 
-	description = "Team Fortress 2 Battle Royale | Original Authors: Mikusch, 42", 
+	author = "Peanut | Original Authors: Mikusch, 42 (who abandoned it)", 
+	description = "Team Fortress 2 Battle Royale", 
 	version = "0.1_fix", 
 	url = "https://github.com/StShAzzy/fortress-royale"
 }
