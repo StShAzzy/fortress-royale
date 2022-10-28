@@ -118,7 +118,7 @@ stock void ShowKeyHintText(int client, const char[] format, any ...)
 	EndMessage();
 }
 
-stock void WorldSpaceCenter(int entity, float[3] buffer)
+stock void WorldSpaceCenter(int entity, float buffer[3])
 {
 	float origin[3], mins[3], maxs[3], offset[3];
 	GetEntPropVector(entity, Prop_Data, "m_vecAbsOrigin", origin);
@@ -174,7 +174,7 @@ stock Address GetServerVehicle(int vehicle)
 	return view_as<Address>(GetEntData(vehicle, offset));
 }
 
-stock void DropSingleInstance(int entity, int owner, float[3] launchVel = NULL_VECTOR)
+stock void DropSingleInstance(int entity, int owner, float launchVel[3] = NULL_VECTOR)
 {
 	SetEntProp(entity, Prop_Data, "m_spawnflags", GetEntProp(entity, Prop_Data, "m_spawnflags") | SF_NORESPAWN);
 	

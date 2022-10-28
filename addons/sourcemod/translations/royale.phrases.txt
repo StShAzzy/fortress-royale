@@ -1,112 +1,135 @@
-"Phrases"
+﻿"Phrases"
 {
 	"BattleBus_HowToDrop"
 	{
 		"en"		"%%+reload%% DROP INTO BATTLE"
+		"pt"		"%%+reload%% ENTRAR NA BATALHA"
 	}
 	"BattleBus_SecToDeployParachute"
 	{
 		"#format"	"{1:d}"
 		"en"		"{1} seconds until auto-deploying parachute"
+		"pt"		"{1} segundos para abrir o paraquedas automaticamente"
 	}
 	"BattleBus_ParachuteDeployed"
 	{
 		"en"		"Parachute deployed"
+		"pt"		"Para-quedas aberto"
 	}
 	"BattleBus_IncomingCrate"
 	{
 		"en"		"Incoming Mannpower supply crate!"
+		"pt"		"Caixa de suprimentos Mannpower a caminho!"
 	}
 	
 	"Command_VehicleUsage"
 	{
 		"en"		"Usage: sm_vehicle [config name]"
+		"pt'		"Uso: sm_vehicle [config]"
 	}
 	"Command_VehicleCantFindName"
 	{
 		"#format"	"{1:s}"
 		"en"		"Unable to find vehicle name '{1}'"
+		"pt"		"Incapaz de achar veículo com nome de '{1}'"	
 	}
-	
 	"Editor_Title"
 	{
 		"en"		"Editor Menu"
+		"pt"		"Menu de Edição"
 	}
 	"Editor_NotLookingAtAny"
 	{
 		"en"		"You are currently not looking at any crates or vehicles"
+		"pt"		"Você atualmente não esta olhando para nenhuma caixa ou veículo"
 	}
 	"Editor_Delete"
 	{
 		"en"		"Delete this item"
+		"pt"		"Deletar este item"
 	}
 	"Editor_Move"
 	{
 		"en"		"Move this item"
+		"pt"		"Mover este item"
 	}
 	"Editor_CreateCrate"
 	{
 		"en"		"Create new crate"
+		"pt"		"Criar nova caixa"
 	}
 	"Editor_CreateVehicle"
 	{
 		"en"		"Create new vehicle"
+		"pt"		"Criar novo veículo"
 	}
 	"Editor_Place"
 	{
 		"en"		"Place this item"
+		"pt"		"Colocar este item"
 	}
 	"Editor_Save"
 	{
 		"en"		"Save to KeyValues file"
+		"pt"		"Salvar nos KeyValues do arquivo"
 	}
 	"Editor_Prefab"
 	{
 		"#format"	"{1:s}"
 		"en"		"Prefab: {1}"
+		"pt"		"Prefab: {1}"
 	}
 	"Editor_Prefab_Title"
 	{
 		"en"		"Editor Prefabs"
+		"pt"		"Editor de Prefabs"
 	}
 	
 	"Hint_VehicleKeys_Car"
 	{
 		"en"		"%%+speed%% TURBO %%+jump%% HANDBRAKE"
+		"pt"		"%%+speed%% para Turbo, %%+jump%% para Freio de mão"
 	}
 	
 	"Hint_VehicleKeys_Airboat"
 	{
 		"en"		"%%+forward%% SPEED UP %%+back%% SLOW DOWN %%+moveleft%% TURN LEFT %%+moveright%% TURN RIGHT"
-	}
+		"pt"		"%%+forward%% Acelerar %%+back%% Ré %%+moveleft%% Virar para Esquerda %%+moveright%% Virar para Direita"
+	} 
 	
 	"Hint_BottlePickup_WrongClass"
 	{
 		"en"		"You need to be a Demoman to pick this up!"
+		"pt"		"Você precisa ser um Demoman para pegar isso!"
 	}
 	
 	"RoundState_NoWinner"
 	{
 		"en"		"Stalemate! You are all losers!"
+		"pt"		"Empate! Você todos são perdedores!"
 	}
 	"RoundState_Winner"
 	{
 		"#format"	"{1:N},{2:d}"
 		"en"		"{1} won this round with {2} elimination(s)!"
+		"pt"		"{1} venceu a rodada com {2} eliminação(ões)!"
 	}
 	"RoundState_MostKills_One"
 	{
 		"#format"	"{1:N},{2:d}"
 		"en"		"{1} is the top killer with {2} elimination(s) this round!"
+		"pt"		"{1} foi quem mais matou, com {2} eliminação(ões) nesta rodada!"
 	}
 	"RoundState_MostKills_Many"
 	{
 		"#format"	"{1:s},{2:N},{3:d}"
 		"en"		"{1} and {2} are the top killers with {3} elimination(s) this round!"
+		"pt"		"{1} e {2} foram os melhores assasinos com {3} eliminação(ões) nesta rodada!"
 	}
 	
 	"Zone_ShrinkAlert"
 	{
 		"en"		"The death zone is shrinking, get moving!"
+		"pt"		"Zona de morte está diminuindo, é hora de andar!"
 	}
 }

@@ -464,7 +464,7 @@ int SDKCall_GetMaxAmmo(int client, int ammoType)
 	return SDKCall(g_SDKCallGetMaxAmmo, client, ammoType, -1);
 }
 
-bool SDKCall_CalculateAmmoPackPositionAndAngles(int client, int weapon, float[3] origin, float[3] angles)
+bool SDKCall_CalculateAmmoPackPositionAndAngles(int client, int weapon, float origin[3], float angles[3])
 {
 	return SDKCall(g_SDKCallCalculateAmmoPackPositionAndAngles, client, weapon, origin, angles);
 }

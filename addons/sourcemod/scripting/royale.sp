@@ -74,7 +74,7 @@
 const TFTeam TFTeam_Any = view_as<TFTeam>(-2);
 const TFTeam TFTeam_Alive = TFTeam_Red;
 const TFTeam TFTeam_Dead = TFTeam_Blue;
-const TFCond TFCond_PowerupModeDominant = view_as<TFCond>(129);	//TODO: Remove when SM 1.11 goes stable
+//const TFCond TFCond_PowerupModeDominant = view_as<TFCond>(129);	//TODO: Remove when SM 1.11 goes stable
 
 enum
 {
@@ -516,10 +516,10 @@ int g_OffsetNextSpell;
 public Plugin myinfo = 
 {
 	name = "Fortress Royale", 
-	author = "Mikusch, 42", 
-	description = "Team Fortress 2 Battle Royale", 
-	version = "0.1", 
-	url = "https://github.com/Mikusch/fortress-royale"
+	author = "Peanut", 
+	description = "Team Fortress 2 Battle Royale | Original Authors: Mikusch, 42", 
+	version = "0.1_fix", 
+	url = "https://github.com/StShAzzy/fortress-royale"
 }
 
 public void OnPluginStart()
